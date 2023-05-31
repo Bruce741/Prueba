@@ -1,0 +1,32 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+}
+
+
+header, footer{
+    background-color: aqua;
+    height: 200px;
+    margin: 10px;
+}
+
+nav, article, aside{
+    background-color: purple;
+    height: 250px;
+}
+
+
+nav, aside{
+    width: 25%;
+    margin: 10px;
+}
+
+article{
+    width: 50%;
+    margin: 10px;
+}
